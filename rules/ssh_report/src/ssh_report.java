@@ -71,13 +71,12 @@ public class ssh_report {
         String time = getEsTimestamp();
 
         int len1 = array.length();
-        Integer count = 0;
+        Integer count = 0; // host connection count
         // For each host
         for (int i = 0; i < len1; i++) {
             JSONObject JSONhost = array.getJSONObject(i);
             String host = JSONhost.get("key").toString(); // host name
-            //Integer count = JSONhost.getInt("doc_count"); // host connection count
-
+            
             JSONArray uniq_ips = JSONhost.getJSONObject("uniq_ips").getJSONArray("buckets");
 
             int len2 = uniq_ips.length();
