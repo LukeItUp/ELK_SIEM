@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ssh_report:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ssh_report_jar</output-path>
+    <root id="archive" name="ssh_report.jar">
+      <element id="module-output" name="ssh_report" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/elasticsearch-spark-20_2.11-6.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/scala-compiler-2.10.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/guava-23.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json-20180130.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/scalap-2.10.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/scala-reflect-2.10.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/scala-library-2.10.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/spark-core_2.11-2.3.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
