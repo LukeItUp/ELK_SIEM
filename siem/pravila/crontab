@@ -1,0 +1,3 @@
+*/5 * * * * bash /usr/local/siem_jar/script/ssh_report.sh
+* * * * * bash /usr/local/siem_jar/script/usb_report.sh
+* * * * * bash /usr/local/siem_jar/script/webserver_report.sh
